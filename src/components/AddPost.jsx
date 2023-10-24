@@ -15,7 +15,7 @@ function AddPost() {
 	return (
 		<>
 			<Button variant="primary" onClick={handleShow}>
-				Aggiungi un post
+				Aggiungi un post!
 			</Button>
 
 			<Modal show={show} onHide={handleClose}>
