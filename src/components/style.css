@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+.myBorder {
+	border-radius: 8px;
+	border: 4px pink solid;
+}
+.myCard {
+	height: 30em;
+	text-align: center;
+	overflow: hidden;
+}
+.myCardImg {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+.myImg {
+	width: 50%;
+}
+.myAvatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid pink 4px;
+	overflow: hidden;
+}
+.myImgAvatar {
+	width: 100%;
+}
+.myAvatarPointer {
+	cursor: pointer;
+}
+.mysize {
+	width: 30px;
+	height: 30px;
+	border: solid 2px black;
+	padding: 5px;
+	background-color: rgb(252, 254, 191);
+	position: relative;
+	top: 100%;
+	left: 25%;
+	cursor: pointer;
+}
+.mysize:hover {
+	background-color: darkgrey;
+}
+.mysizeNav:hover {
+	background-color: darkgrey;
+}
+.myPadding {
+	padding-bottom: 15%;
+}
+.trashSize {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: rgb(228, 42, 42);
+	cursor: pointer;
+}
+.trashSize:hover {
+	background-color: darkgrey;
+}
+
+.Mytitle {
+	padding: 2%;
+	padding-bottom: 3%;
+	text-align: center;
+	color: #fff;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+.MyHover:hover {
+	border: solid rgb(230, 0, 255) 4px;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #c700e6, 0 0 20px #e600de,
+			0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+	}
+	to {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6,
+			0 0 40px #cb00e6, 0 0 50px #de00e6, 0 0 60px #e600a9, 0 0 70px #e60082;
+	}
+}
